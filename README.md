@@ -1,1 +1,0 @@
-# electronix_shopping

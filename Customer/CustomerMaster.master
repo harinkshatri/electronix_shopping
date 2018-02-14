@@ -1,0 +1,146 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CustomerMaster.master.cs" Inherits="Customer_CustomerMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Electronix Store</title>
+    <link href="../style.css" rel="stylesheet" type="text/css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<!--[if IE 6]>
+<link rel="stylesheet" type="text/css" href="iecss.css" />
+<![endif]-->
+<script type="text/javascript" src="js/boxOver.js"></script>
+    </head>
+<body>
+    <form id="form1" runat="server">
+<div id="main_container">
+  <div class="top_bar">
+    <div class="top_search">
+     
+     
+      
+    </div>
+    
+  </div>
+  <div id="header">
+    <div id="logo"> <a href="#"><img src="images/logo.png" alt="" border="0" width="237" height="140" /></a> </div>
+    <div class="oferte_content">
+      <div class="top_divider"><img src="images/header_divider.png" alt="" width="1" height="164" /></div>
+      <div class="oferta">
+        <div class="oferta_content"> <img src="images/laptop.png" width="94" height="92" alt="" border="0" class="oferta_img" />
+          <div class="oferta_details">
+            <div class="oferta_title">Samsung GX 2004 LM</div>
+            <div class="oferta_text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </div>
+            <a href="" class="details">details</a> </div>
+        </div>
+        <div class="oferta_pagination"> <span class="current">1</span> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a> </div>
+      </div>
+      <div class="top_divider"><img src="images/header_divider.png" alt="" width="1" height="164" /></div>
+    </div>
+    <!-- end of oferte_content-->
+  </div>
+  <div id="main_content">
+    <div id="menu_tab">
+      <div class="left_menu_corner"></div>
+      <ul class="menu">
+        <li><a href="Home.aspx" class="nav1"> Home</a></li>
+        <li class="divider"></li>
+        <li><a href="ViewProduct.aspx" class="nav2"> View Products</a></li>
+        <li class="divider"></li>
+        <li><a href="View_Profile.aspx" class="nav4">View Profile</a></li>
+      
+        <li class="divider"></li>
+          <li><a href="History_Of_Order.aspx" class="nav4">History</a></li>
+        <li class="divider"></li>
+          <li><a href="ChangePassword.aspx" class="nav3">Change Password</a></li>
+        <li class="divider"></li>
+      
+      
+        <li><a href="Logout_Cust.aspx" class="nav5">Logout</a></li>
+        <li class="divider"></li>
+       
+      </ul>
+      <div class="right_menu_corner"></div>
+    </div>
+    <!-- end of menu tab -->
+   
+    <div class="left_content">
+      <div class="title_box">Categories</div>
+      <ul class="left_menu">
+        <li class="odd"><a href="#">Laptop</a></li>
+        <li class="even"><a href="#">Tablet</a></li>
+        <li class="odd"><a href="#">Mobile</a></li>
+        <li class="even"><a href="#">Camera</a></li>
+        <li class="odd"><a href="#">Refrigerator</a></li>
+        <li class="even"><a href="#">Laptop</a></li>
+        <li class="odd"><a href="#">Tablet</a></li>
+        <li class="even"><a href="#">Mobile</a></li>
+        <li class="odd"><a href="#">Camera</a></li>
+        <li class="even"><a href="#">Refrigerator</a></li>
+        
+      </ul>
+      <div class="title_box">Special Products</div>
+      <div class="border_box">
+        <div class="product_title"><a href="">DELL</a></div>
+        <div class="product_img"><a href=""><img src="images/laptop.png" alt="" border="0" /></a></div>
+        <div class="prod_price"><span class="reduce">35600/-</span> <span class="price">28000/-</span></div>
+      </div>
+     
+      <div class="border_box">
+                 </div>
+      <div class="banner_adds"> <a href="#"><img src="images/bann2.jpg" alt="" border="0" /></a> </div>
+    </div>
+    <!-- end of left content -->
+    <div class="center_content">
+      
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        
+        
+        
+            
+        
+        
+        </asp:ContentPlaceHolder>
+        
+      
+    </div>
+    <!-- end of center content -->
+    <div class="right_content">
+      <div class="title_box">What’s new</div>
+      <div class="border_box">
+        <div class="product_title"><a href="">HP</a></div>
+        <div class="product_img"><a href=""><img src="images/p2.gif" alt="" border="0" /></a></div>
+        <div class="prod_price"><span class="reduce">35000/-</span> <span class="price">27200/-</span></div>
+      </div>
+      <div class="title_box">Manufacturers</div>
+      <ul class="left_menu">
+         <li class="odd"><a href="#">Sony</a></li>
+        <li class="even"><a href="#">Samsung</a></li>
+       
+        <li class="even"><a href="#">LG</a></li>
+      
+        <li class="even"><a href="#">Lenovo</a></li>
+        <li class="odd"><a href="#">Zolo</a></li>
+        <li class="even"><a href="#">Micromax</a></li>
+      </ul>
+      <div class="banner_adds"> <a href="#"><img src="images/bann1.jpg" alt="" border="0" /></a> </div>
+    </div>
+    <!-- end of right content -->
+  </div>
+  <!-- end of main content -->
+  <div class="footer">
+    <div class="left_footer"> <img src="images/footer_logo.png" alt="" width="170" height="49"/> </div>
+    <div class="center_footer"> Template name. All Rights Reserved 2008<br />
+      <a href="http://csscreme.com"><img src="images/csscreme.jpg" alt="csscreme" border="0" /></a><br />
+      <img src="images/payment.gif" alt="" /> </div>
+    <div class="right_footer"> <a href="#">home</a> <a href="#">about</a> <a href="#">sitemap</a> <a href="#">rss</a> <a href="contact.html">contact us</a> </div>
+  </div>
+</div>
+<!-- end of main_container -->
+    </form>
+</body>
+</html>
+
+
